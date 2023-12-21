@@ -52,13 +52,13 @@ const Hero: React.FC<{ title?: string; subtitle?: string }> = ({
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>WE CRAFT</motion.h2>
+          <motion.h2 variants={textVariants}>GET A</motion.h2>
           <motion.div variants={textVariants}>
             <motion.h1 variants={textVariants}>
-              High-Converting Landing Pages
+              High-Converting Landing Page
             </motion.h1>
             <motion.h3 variants={textVariants}>
-              and Irresistible Offers
+              so good your visitors can&apos;t say no to it
             </motion.h3>
           </motion.div>
           <motion.div variants={textVariants} className="buttons">

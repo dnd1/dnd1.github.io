@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Roboto } from "next/font/google";
-import Test from "@/components/test";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 

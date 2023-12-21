@@ -1,0 +1,19 @@
+body {
+  background-color: #0c0c1d;
+  color: lightgray; // height: "100%";
+
+  section {
+    // height: 100vh;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 538px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}

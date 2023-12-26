@@ -6,23 +6,25 @@ import Hero from "@/components/Hero";
 export default function Home() {
   return (
     <div className="p-4">
-      <section>
-        <Nav />
-        <Hero
-          title="Transform Your Business with a High-Converting Landing Page and Irresistible Offer"
-          subtitle=""
-        />
-      </section>
-      <section>Headline + CTA</section>
-      <section>Bullets</section>
-      <section>Problem</section>
-      <section>Agitation</section>
-      <section>Solution</section>
-      <section>CTA</section>
-      <section>Testimonials</section>
-      <section>Escarcity</section>
-      <section>Guantee</section>
-      <section>CTA</section>
+      <div>
+        <section>
+          <Nav />
+          <Hero
+            title="Transform Your Business with a High-Converting Landing Page and Irresistible Offer"
+            subtitle=""
+          />
+        </section>
+        <section>Headline + CTA</section>
+        <section>Bullets</section>
+        <section>Problem</section>
+        <section>Agitation</section>
+        <section>Solution</section>
+        <section>CTA</section>
+        <section>Testimonials</section>
+        <section>Escarcity</section>
+        <section>Guantee</section>
+        <section>CTA</section>
+      </div>
     </div>
   );
   // return (

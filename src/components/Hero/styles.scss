@@ -14,7 +14,8 @@
       gap: 50px;
 
       @include mobile {
-        height: 80%;
+        // height: 80%;
+        height: 100%;
         width: 100%;
         gap: 20px;
         align-items: center;
@@ -25,6 +26,9 @@
         font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
+        height: 1rem;
+        padding-bottom: 20px;
+        padding-top: 20px;
       }
 
       h1 {
@@ -57,11 +61,16 @@
           @include mobile {
             padding: 10px;
             margin-top: 10px;
+            width: 100%;
           }
         }
       }
     }
   }
+
+  //   .place-self-start {
+  //     height: 100px;
+  //   }
 
   .slidingTextContainer {
     position: absolute;
@@ -72,5 +81,6 @@
     opacity: 0.05;
     width: 50%;
     font-weight: bold;
+    overflow-x: hidden;
   }
 }

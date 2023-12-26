@@ -16,14 +16,14 @@ const textVariants: Variants = {
       staggerChildren: 0.1,
     },
   },
-  // scrollButton: {
-  //   opacity: 0,
-  //   y: 10,
-  //   transition: {
-  //     duration: 2,
-  //     repeat: Infinity,
-  //   },
-  // },
+  scrollButton: {
+    opacity: 0,
+    y: 10,
+    transition: {
+      duration: 2,
+      repeat: Infinity,
+    },
+  },
 };
 const sliderVariants: Variants = {
   initial: {
@@ -47,17 +47,17 @@ const Hero: React.FC<{ title?: string; subtitle?: string }> = ({
     <div className="hero">
       <div className="wrapper">
         <motion.div
-          className="flex flex-col justify-center items-center textContainer"
+          className="flex flex-col justify-between pt-4 items-center textContainer h-full"
           variants={textVariants}
           initial="initial"
           animate="animate"
         >
           <motion.h2 variants={textVariants}>GET A</motion.h2>
           <motion.div variants={textVariants}>
-            <motion.h1 variants={textVariants}>
+            <motion.h1 className="mx-10" variants={textVariants}>
               High-Converting Landing Page
             </motion.h1>
-            <motion.h3 variants={textVariants}>
+            <motion.h3 className="mx-10" variants={textVariants}>
               so good your visitors can&apos;t say no to it
             </motion.h3>
           </motion.div>
@@ -70,6 +70,7 @@ const Hero: React.FC<{ title?: string; subtitle?: string }> = ({
             </motion.button>
           </motion.div>
           <motion.img
+            className="place-self-start pb-8"
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"

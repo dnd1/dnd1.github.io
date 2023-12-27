@@ -1,4 +1,4 @@
-// @import "../../app/main.scss";
+@import "../../app/main.scss";
 // .services {
 //   background: linear-gradient(180deg, #0c0c1d, #111132);
 //   height: 100%;
@@ -142,5 +142,23 @@
 //         }
 //       }
 //     }
+//   }
+// }
+h2 {
+  font-size: 30px;
+  color: rebeccapurple;
+  letter-spacing: 10px;
+  height: 1rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  @include mobile {
+    font-size: 15px;
+  }
+}
+
+// h3 {
+//   @include mobile {
+//     font-size: 16px;
 //   }
 // }

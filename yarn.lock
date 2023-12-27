@@ -19,6 +19,11 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
+"@codaworks/react-glow@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@codaworks/react-glow/-/react-glow-1.0.4.tgz#727915631c42669b1b760db10f099bd76de3db75"
+  integrity sha512-Ik+IgPZaMUA/NKetCMjmJrJo+4tsIZvhJ8Ou+WU+QaqF/BR6pXH9lJL/LO8Ue9to3bq0/DDPVGJEY+jp+Csrog==
+
 "@emotion/is-prop-valid@^0.8.2":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"

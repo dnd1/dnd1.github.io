@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Roboto } from "next/font/google";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import Bullets from "@/components/Bullets";
 
 export default function Home() {
   return (
@@ -15,8 +16,10 @@ export default function Home() {
             slider="Unleash the power of a highly-converting landing page"
           />
         </section>
-        <section>Headline + CTA</section>
-        <section>Bullets</section>
+        {/* <section>Headline + CTA</section> */}
+        <section>
+          <Bullets />
+        </section>
         <section>Problem</section>
         <section>Agitation</section>
         <section>Solution</section>

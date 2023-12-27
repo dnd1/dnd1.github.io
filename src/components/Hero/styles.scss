@@ -36,7 +36,7 @@
         text-align: center;
 
         @include mobile {
-          font-size: 36px;
+          font-size: 24px;
         }
       }
 
@@ -45,6 +45,10 @@
         text-transform: capitalize;
         font-style: italic;
         text-align: center;
+
+        @include mobile {
+          font-size: 18px;
+        }
       }
 
       .buttons {

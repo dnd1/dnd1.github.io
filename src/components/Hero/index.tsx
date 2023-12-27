@@ -27,22 +27,24 @@ const textVariants: Variants = {
 };
 const sliderVariants: Variants = {
   initial: {
-    x: 0,
+    x: "10%",
   },
   animate: {
-    x: "-220%",
+    x: "-100%",
     transition: {
       repeat: Infinity,
-      repeatType: "mirror",
-      duration: 20,
+      repeatType: "loop",
+      duration: 40,
+      ease: "linear",
     },
   },
 };
 
-const Hero: React.FC<{ title?: string; subtitle?: string }> = ({
-  title,
-  subtitle,
-}) => {
+const Hero: React.FC<{
+  title?: string;
+  slider?: string;
+  subtitle?: string;
+}> = ({ title, subtitle, slider }) => {
   return (
     <div className="hero">
       <div className="wrapper">
@@ -84,7 +86,7 @@ const Hero: React.FC<{ title?: string; subtitle?: string }> = ({
         initial="initial"
         animate="animate"
       >
-        Unleash the power of a highly-converting landing page now
+        {slider}
       </motion.div>
     </div>
   );

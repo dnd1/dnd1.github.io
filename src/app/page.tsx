@@ -12,6 +12,7 @@ export default function Home() {
           <Hero
             title="Transform Your Business with a High-Converting Landing Page and Irresistible Offer"
             subtitle=""
+            slider="Unleash the power of a highly-converting landing page"
           />
         </section>
         <section>Headline + CTA</section>

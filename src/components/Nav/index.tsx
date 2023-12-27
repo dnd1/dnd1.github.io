@@ -17,9 +17,13 @@ const Nav: React.FC = () => {
           src="/DND-TECH-logo-square.png"
         />
       </motion.span>
-      <div className="">
+      <motion.div
+        initial={{ x: "100vh" }}
+        animate={{ x: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         <p>Get a landing page that converts</p>
-      </div>
+      </motion.div>
     </div>
   );
 };

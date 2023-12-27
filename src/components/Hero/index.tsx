@@ -25,6 +25,7 @@ const textVariants: Variants = {
     },
   },
 };
+
 const sliderVariants: Variants = {
   initial: {
     x: "10%",

@@ -146,14 +146,15 @@
 // }
 h2 {
   font-size: 30px;
-  color: rebeccapurple;
+  color: rgb(255, 179, 0);
   letter-spacing: 10px;
   height: 1rem;
   padding-bottom: 20px;
   padding-top: 20px;
-
+  text-transform: uppercase;
   @include mobile {
     font-size: 15px;
+    letter-spacing: 5px;
   }
 }
 

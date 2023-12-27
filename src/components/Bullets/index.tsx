@@ -1,6 +1,7 @@
 "use client";
 import { Glow, GlowCapture } from "@codaworks/react-glow";
 import "./styles.scss";
+import { useScroll, motion } from "framer-motion";
 
 const Card: React.FC<{ title: string; subtitle?: string }> = ({
   title,
@@ -18,9 +19,16 @@ const Card: React.FC<{ title: string; subtitle?: string }> = ({
 };
 
 const Bullets: React.FC = () => {
+  const { scrollYProgress, scrollY } = useScroll();
   return (
     <div className="flex flex-col items-center justify-evenly h-full">
-      <h2 className="text-center">Just picture this...</h2>
+      <motion.h2
+        className="text-center"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, transition: { duration: 2 } }}
+      >
+        Just picture this...
+      </motion.h2>
       <GlowCapture>
         <Glow color="purple">
           <div className="px-12 flex flex-col items-start  flex-wrap justify-around gap-5">

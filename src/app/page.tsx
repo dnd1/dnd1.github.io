@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Bullets from "@/components/Bullets";
 import Problem from "@/components/Problem";
+import Agitation from "@/components/Agitation";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
         </section>
         <Bullets />
         <Problem />
-        <section>Agitation</section>
+        <Agitation />
         <section>Solution</section>
         <section>CTA</section>
         <section>Testimonials</section>

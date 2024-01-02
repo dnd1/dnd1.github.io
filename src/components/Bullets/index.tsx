@@ -1,7 +1,6 @@
 "use client";
-import { Glow, GlowCapture } from "@codaworks/react-glow";
 import "./styles.scss";
-import { useScroll, motion, useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import SectionIntro from "../SectionIntro";
 
@@ -29,7 +28,6 @@ const bullets = [
 ];
 
 const Bullets: React.FC = () => {
-  const { scrollYProgress, scrollY } = useScroll();
   const container = useRef(null);
   const ref = useRef(null);
   const isInView = useInView(ref, { root: container });

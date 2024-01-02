@@ -22,7 +22,7 @@ const Nav: React.FC = () => {
         animate={{ x: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <p>Get a landing page that converts</p>
+        <p className="text-right text-xs">Get a landing page that converts</p>
       </motion.div>
     </div>
   );

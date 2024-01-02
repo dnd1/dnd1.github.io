@@ -3,10 +3,11 @@ import { Roboto } from "next/font/google";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Bullets from "@/components/Bullets";
+import Problem from "@/components/Problem";
 
 export default function Home() {
   return (
-    <div className="p-4">
+    <div className="">
       <div>
         <section>
           <Nav />
@@ -16,11 +17,8 @@ export default function Home() {
             slider="Unleash the power of a highly-converting landing page"
           />
         </section>
-        {/* <section>Headline + CTA</section> */}
-        <section>
-          <Bullets />
-        </section>
-        <section>Problem</section>
+        <Bullets />
+        <Problem />
         <section>Agitation</section>
         <section>Solution</section>
         <section>CTA</section>

@@ -55,12 +55,14 @@ const Hero: React.FC<{
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>GET A</motion.h2>
+          <motion.h2 className="text-sm" variants={textVariants}>
+            GET A
+          </motion.h2>
           <motion.div variants={textVariants}>
             <motion.h1 className="mx-10" variants={textVariants}>
               High-Converting Landing Page
             </motion.h1>
-            <motion.h3 className="mx-10" variants={textVariants}>
+            <motion.h3 className="mx-10 " variants={textVariants}>
               so good your visitors can&apos;t say no to it
             </motion.h3>
           </motion.div>

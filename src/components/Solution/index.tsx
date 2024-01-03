@@ -13,7 +13,7 @@ const bullets = [
 
 const Solution: React.FC = () => {
   return (
-    <section className=" flex flex-col items-start justify-center xs:px-4 px-8 gap-7">
+    <div className=" flex flex-col items-start justify-center xs:px-4 p-8 gap-7">
       <SectionIntro text="Our solution" />
 
       {bullets.map((t, i) => {
@@ -32,11 +32,7 @@ const Solution: React.FC = () => {
           </motion.div>
         );
       })}
-      {/* <BulletCard title="Our approach is a departure from the generic." />
-      <BulletCard title="We understand the frustrations you face, and we have the expertise to break the cycle." />
-      <BulletCard title="Our team helps you craft digital experiences that tell your brand's story." />
-      <BulletCard title="Captivate your audience, and ultimately drive conversions." /> */}
-    </section>
+    </div>
   );
 };
 

@@ -20,7 +20,7 @@ const Bullets: React.FC = () => {
 
   return (
     <div>
-      <section
+      <div
         ref={container}
         className="xs:px-4 px-12 flex flex-col items-start  flex-wrap justify-center gap-5"
       >
@@ -41,7 +41,7 @@ const Bullets: React.FC = () => {
             </motion.div>
           );
         })}
-      </section>
+      </div>
     </div>
   );
 };

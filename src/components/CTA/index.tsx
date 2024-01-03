@@ -22,6 +22,7 @@ const CTA: React.FC = () => {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={textVariants.animate as TargetAndTransition}
+      className="py-4"
     >
       <motion.div variants={textVariants} className="buttons">
         <motion.button variants={textVariants}>

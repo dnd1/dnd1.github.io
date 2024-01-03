@@ -34,13 +34,14 @@ const Bullets: React.FC = () => {
 
   return (
     <div>
-      <section>
+      {/* <section>
         <SectionIntro text="Just picture this..." />
-      </section>
+      </section> */}
       <section
         ref={container}
         className="xs:px-4 px-12 flex flex-col items-start  flex-wrap justify-center gap-5"
       >
+        <SectionIntro text="Just picture this..." />
         {bullets.map((t, i) => {
           return (
             <motion.div

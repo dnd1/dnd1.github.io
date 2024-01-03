@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Bullets from "@/components/Bullets";
 import Problem from "@/components/Problem";
 import Agitation from "@/components/Agitation";
+import Solution from "@/components/Solution";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         <Bullets />
         <Problem />
         <Agitation />
-        <section>Solution</section>
+        <Solution />
         <section>CTA</section>
         <section>Testimonials</section>
         <section>Escarcity</section>

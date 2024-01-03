@@ -25,7 +25,7 @@ const SectionIntro: React.FC<{ text: string; full?: boolean }> = ({
   return !full ? (
     <div
       ref={container}
-      className="flex flex-col items-center justify-evenly h-full"
+      className="flex flex-col items-center justify-center w-full py-8"
     >
       {title}
     </div>

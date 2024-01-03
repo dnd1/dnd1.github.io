@@ -4,7 +4,7 @@ const BulletCard: React.FC<{ title: string; subtitle?: string }> = ({
 }) => {
   return (
     <div className="border border-amber-200 p-4 rounded glow:border-indigo-600">
-      <h3 className="xs:text-xs sm:text-xl md:text-3xl font-thin">
+      <h3 className="xs:text-md sm:text-xl md:text-3xl">
         <span className="pr-4 text-2xl">&#x2713;</span>
         {title}
       </h3>

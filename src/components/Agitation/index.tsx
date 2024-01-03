@@ -24,31 +24,21 @@ const Agitation: React.FC = () => {
       </p>
       {/* </section>
       <section className="flex flex-col items-center justify-center xs:px-4 px-8 gap-7"> */}
-      <p className="text-center md:text-3xl text-2xl xs:text-sm font-thin">
+      <p className="text-center md:text-3xl text-2xl xs:text-md font-thin">
         Competitors may promise simplicity, but it can&apos;t address the
         exhaustion that comes from low or non-existent profit margins.
       </p>
-      <p className="text-center md:text-3xl text-2xl xs:text-sm font-thin">
+      <p className="text-center md:text-3xl text-2xl xs:text-md font-thin">
         Relying on a template-based platform may have you sharing the same
         digital space as your competitors, blurring your brand&apos;s identity
         and making it difficult to charge what your unique offerings are truly
         worth.
       </p>
-      {/* </section>
-      <motion.section
-        className="flex flex-col items-center justify-center xs:px-4 px-8 gap-7"
-        // initial={{ opacity: 0, scale: 0 }}
-        // whileInView={{
-        //   opacity: 1,
-        //   scale: 1,
-        //   transition: { duration: 1 },
-        // }}
-      > */}
-      <p className="text-center text-2xl xs:text-sm md:text-3xl font-thin">
+      <p className="text-center text-2xl xs:text-md md:text-3xl font-thin">
         Are you tired of being stuck in the price-driven rat race, unable to
         command the value your products or services genuinely deserve?
       </p>
-      <p className="text-center text-2xl xs:text-sm md:text-3xl font-thin">
+      <p className="text-center text-2xl xs:text-md md:text-3xl font-thin">
         If your goal is to charge more for your offer and elevate your brand
         above the sea of mediocrity, a tailored solution is not just a
         luxury—it&apos;s a necessity.

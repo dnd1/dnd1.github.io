@@ -21,7 +21,7 @@ export default function Home() {
           />
         </section>
         <Bullets />
-        <div className="flex justify-center">
+        <div className="flex justify-center pt-12">
           <CTA />
         </div>
         <Problem />

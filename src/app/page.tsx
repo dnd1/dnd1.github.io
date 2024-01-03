@@ -6,6 +6,7 @@ import Bullets from "@/components/Bullets";
 import Problem from "@/components/Problem";
 import Agitation from "@/components/Agitation";
 import Solution from "@/components/Solution";
+import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
         <Problem />
         <Agitation />
         <Solution />
+        <div className="flex justify-center">
+          <CTA />
+        </div>
         <section>CTA</section>
         <section>Testimonials</section>
         <section>Escarcity</section>

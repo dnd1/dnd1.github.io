@@ -21,17 +21,20 @@ export default function Home() {
           />
         </section>
         <Bullets />
+        <div className="flex justify-center">
+          <CTA />
+        </div>
         <Problem />
         <Agitation />
         <Solution />
         <div className="flex justify-center">
           <CTA />
         </div>
-        <section>CTA</section>
-        <section>Testimonials</section>
-        <section>Escarcity</section>
-        <section>Guantee</section>
-        <section>CTA</section>
+        <div>Escarcity</div>
+        <div>Guantee</div>
+        <div className="flex justify-center pb-12">
+          <CTA />
+        </div>
       </div>
     </div>
   );

@@ -1,18 +1,41 @@
+"use client";
+
+import BulletCard from "../BulletCard";
 import SectionIntro from "../SectionIntro";
+import { motion } from "framer-motion";
+
+const bullets = [
+  "Our approach is a departure from the generic.",
+  "We understand the frustrations you face, and we have the expertise to break the cycle.",
+  "Our team helps you craft digital experiences that tell your brand's story.",
+  "Captivate your audience, and ultimately drive conversions.",
+];
 
 const Solution: React.FC = () => {
   return (
-    <section className="text-green-500 flex flex-col items-center justify-center xs:px-4 px-8 gap-7">
+    <section className=" flex flex-col items-start justify-center xs:px-4 px-8 gap-7">
       <SectionIntro text="Our solution" />
-      <p className="text-center text-2xl xs:text-sm md:text-3xl font-thin">
-        Our approach is a departure from the generic. We understand the
-        frustrations you face, and we have the expertise to break the cycle.
-      </p>
-      <p className="text-green-500 text-center text-2xl xs:text-sm md:text-3xl font-thin">
-        Our team doesn&apos;t just create landing pages; we craft digital
-        experiences that tell your brand&apos;s story, captivate your audience,
-        and ultimately drive conversions.
-      </p>
+
+      {bullets.map((t, i) => {
+        return (
+          <motion.div
+            key={t}
+            initial={{
+              opacity: 0,
+              translateX: i % 2 === 0 ? -50 : 50,
+              translateY: 50,
+            }}
+            whileInView={{ opacity: 1, translateX: 0, translateY: 0 }}
+            transition={{ duration: 0.2, delay: i * 0.2 }}
+          >
+            <BulletCard title={t} />
+          </motion.div>
+        );
+      })}
+      {/* <BulletCard title="Our approach is a departure from the generic." />
+      <BulletCard title="We understand the frustrations you face, and we have the expertise to break the cycle." />
+      <BulletCard title="Our team helps you craft digital experiences that tell your brand's story." />
+      <BulletCard title="Captivate your audience, and ultimately drive conversions." /> */}
     </section>
   );
 };

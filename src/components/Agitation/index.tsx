@@ -22,8 +22,6 @@ const Agitation: React.FC = () => {
         countless others, relegating your unique offerings to the status of a
         commodity, perpetually competing on price.
       </p>
-      {/* </section>
-      <section className="flex flex-col items-center justify-center xs:px-4 px-8 gap-7"> */}
       <p className="text-center md:text-3xl text-2xl xs:text-md font-thin">
         Competitors may promise simplicity, but it can&apos;t address the
         exhaustion that comes from low or non-existent profit margins.

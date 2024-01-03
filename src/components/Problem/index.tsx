@@ -9,7 +9,6 @@ const Problem: React.FC = () => {
   const ref = useRef(null);
   useInView(ref, { root: container });
   return (
-    // <div ref={container}>
     <motion.div
       ref={ref}
       className="flex flex-col items-center justify-start xs:px-4 px-8 py-8 gap-7"
@@ -42,7 +41,6 @@ const Problem: React.FC = () => {
         </span>
       </p>
     </motion.div>
-    // </div>
   );
 };
 export default Problem;

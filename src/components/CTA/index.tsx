@@ -17,7 +17,7 @@ const textVariants: Variants = {
   },
 };
 
-const CTA: React.FC = () => {
+const CTA: React.FC<{ single?: boolean }> = ({ single = true }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -25,9 +25,11 @@ const CTA: React.FC = () => {
       className="py-4"
     >
       <motion.div variants={textVariants} className="buttons">
-        <motion.button variants={textVariants}>
-          See the Latest Works
-        </motion.button>
+        {!single && (
+          <motion.button variants={textVariants}>
+            See the Latest Works
+          </motion.button>
+        )}
         <motion.button variants={textVariants}>Schedule a call!</motion.button>
       </motion.div>
     </motion.div>

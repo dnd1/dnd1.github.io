@@ -16,7 +16,7 @@ const SectionIntro: React.FC<{ text: string; full?: boolean }> = ({
     <motion.h2
       className="text-center flex items-center h-full justify-center"
       initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { duration: 2, delay: 0.5 } }}
+      whileInView={{ opacity: 1, transition: { duration: 1, delay: 0.3 } }}
     >
       {text}
     </motion.h2>

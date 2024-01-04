@@ -2,6 +2,7 @@
 import Image from "next/image";
 import "./styles.scss";
 import { Variants, motion } from "framer-motion";
+import CTA from "../CTA";
 
 const textVariants: Variants = {
   initial: {
@@ -66,13 +67,8 @@ const Hero: React.FC<{
               so good your visitors can&apos;t say no to it
             </motion.h3>
           </motion.div>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}>
-              Schedule a call!
-            </motion.button>
+          <motion.div variants={textVariants} className="buttons z-10">
+            <CTA />
           </motion.div>
           <motion.img
             className="place-self-start pb-8"

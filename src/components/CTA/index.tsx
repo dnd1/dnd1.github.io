@@ -30,7 +30,11 @@ const CTA: React.FC<{ single?: boolean }> = ({ single = true }) => {
             See the Latest Works
           </motion.button>
         )}
-        <motion.button variants={textVariants}>Schedule a call!</motion.button>
+        <a href="https://calendly.com/danielrvt88/30min">
+          <motion.button variants={textVariants}>
+            Schedule a call now
+          </motion.button>
+        </a>
       </motion.div>
     </motion.div>
   );

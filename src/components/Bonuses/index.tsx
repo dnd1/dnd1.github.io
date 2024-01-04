@@ -33,12 +33,18 @@ const Bonuses: React.FC = () => {
 
       <p className="text-center md:text-3xl text-2xl xs:text-md font-thin pt-12">
         Altogether, these bonuses add up to an astounding{" "}
-        <span className="font-semibold">$1,074</span> in additional value.
+        <span className="font-bold md:text-4xl text-3xl xs:text-xl">
+          $1,074.00
+        </span>{" "}
+        in additional value.
       </p>
       <p className="text-center md:text-3xl text-2xl xs:text-md font-thin">
         Yet, for a limited time, you can secure our comprehensive package,
         including core services and all bonuses, for only{" "}
-        <span className="font-semibold">$499,00</span>.
+        <span className="font-bold md:text-4xl text-3xl xs:text-xl">
+          $499.00
+        </span>
+        .
       </p>
     </div>
   );

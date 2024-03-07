@@ -10,7 +10,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Craft a Highly Converting Landing Page",
-  description: "by DND TECH",
+  description: "by DND TECH LLC",
 };
 
 export default function RootLayout({
